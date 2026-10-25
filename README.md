@@ -51,3 +51,7 @@ Locally hosted property photographs sourced from Unsplash. These are illustrativ
 - Image identifier: photo-1600596542815-ffad4c1539a9.
 - Image identifiers: photo-1600210492486-724fe5c67fb0, photo-1600607687920-4e2a09cf159d, photo-1600566753190-17f0baa2a6c3.
 - Source image delivery: `https://images.unsplash.com/<image-identifier>`; Unsplash licence: https://unsplash.com/license
+
+## Motion
+
+Reference-matched 3-second introduction (once per browser tab session, skippable), 900ms/26px scroll reveals with 90ms card staggering, 1.8-second hero crossfades, slow image zoom, inner-page entrances, animated FAQ opening/closing, mobile menu entrance and link/icon hover motion. The slideshow advances every 6.5 seconds and pauses on hover, keyboard focus, hidden tabs and when offscreen. A pause/play control and manual image controls are included. Reduced-motion preferences disable the intro, autoplay and nonessential animation, including when changed while the page is open. Content remains visible if JavaScript is unavailable.
