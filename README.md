@@ -14,7 +14,7 @@ npx serve dist
 
 ## Pages
 
-Home, Why One Vision, Owners, Tenants, About Us, Make the Switch, Contact, Maintenance Report, FAQs, and Privacy Information. Directory-based routes work with ordinary static hosting. Includes a custom 404 page.
+24 pages: Home, Why One Vision, Owners, Tenants, About Us, Make the Switch, Contact, Maintenance Report, FAQs, Privacy Information, People-first Approach, Commitments, Community, Property & Area, Compare Your Options, Company Details, Owner & Tenant Access, Owner FAQs, Tenant FAQs, Property Journal, three original property guides, and Properties for Rent. Directory-based routes work with ordinary static hosting. Includes a custom 404 page.
 
 ## Business details and enquiry delivery
 
@@ -55,3 +55,23 @@ Locally hosted property photographs sourced from Unsplash. These are illustrativ
 ## Motion
 
 Reference-matched 3-second introduction (once per browser tab session, skippable), 900ms/26px scroll reveals with 90ms card staggering, 1.8-second hero crossfades, slow image zoom, inner-page entrances, animated FAQ opening/closing, mobile menu entrance and link/icon hover motion. The slideshow advances every 6.5 seconds and pauses on hover, keyboard focus, hidden tabs and when offscreen. A pause/play control and manual image controls are included. Reduced-motion preferences disable the intro, autoplay and nonessential animation, including when changed while the page is open. Content remains visible if JavaScript is unavailable.
+
+## Full section coverage and new journeys
+
+The homepage now includes layered property imagery, the six-item expectations section, a horizontal people/journey rail, client-priority panels, service commitments, two photographic property/area cards, suburb enquiry, FAQs, and the journal. About includes people and community; Owners includes tenant care, communication and investment planning; Tenants includes rental search, inspection/application preparation, tenancy guidance and tenant FAQs. Nested navigation and an expanded footer connect all routes. New sections use the shared scroll reveal/stagger system.
+
+Where verified staff and testimonials have not been supplied, the same layouts show useful property-journey cards and questions to ask. No fictional profiles, reviews, review scores, property listings, guarantees, sponsorships or offices are displayed.
+
+### Optional verified content
+
+`site.config.mjs` accepts:
+
+- `people`: objects with `name`, `role`, optional `bio`, optional `image` (local absolute URL path or HTTPS).
+- `testimonials`: approved objects with `quote`, `name`, optional `context`.
+- `serviceAreas`: confirmed suburb/area name strings; adds direct area-enquiry links.
+- `ownerPortalUrl` and `tenantPortalUrl`: verified HTTPS portal URLs; when absent, access guidance and an enquiry route appear.
+- `properties`: real listing objects with unique URL-safe `id`, `title`, numeric `weeklyRent`, optional `suburb`, `address`, `beds`, `baths`, `cars`, `type` (`house`, `apartment`, `townhouse`, `unit`), `available`, `description`, `image` (asset basename without extension), `inspectionUrl`, and `applicationUrl`. Each object generates a property detail page; images must exist in `assets/` as WebP. Only verified HTTPS or site-relative booking/application destinations are rendered.
+
+Rental filters support keywords/suburbs, property type, maximum weekly rent and minimum bedrooms. Sorting supports published order and rent ascending/descending. Filter state is encoded in the URL. With no matching or published properties, a rental enquiry carries those preferences to the contact form. No interest registration or inspection is claimed to have been sent/booked by this static website.
+
+Property images are illustrative unless explicitly provided as actual listing/profile images. Additional Unsplash image identifiers: photo-1518005020951-eccb494ad742, photo-1518837695005-2083093ee35b, photo-1497366754035-f200968a6e72, photo-1521737711867-e3b97375f902.

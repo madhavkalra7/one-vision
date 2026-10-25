@@ -8,5 +8,12 @@ export default {
   address: '',
   // HTTPS endpoint accepting JSON; leave blank until your form service is connected.
   enquiryEndpoint: '',
-  canonicalOrigin: ''
+  canonicalOrigin: '',
+  // Add only verified One Vision information. Empty collections have useful alternatives.
+  people: [],
+  testimonials: [],
+  serviceAreas: [],
+  properties: [],
+  ownerPortalUrl: '',
+  tenantPortalUrl: ''
 };

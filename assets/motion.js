@@ -53,7 +53,11 @@ function setupReveals() {
     '.line-card', '.value', '.service-grid > article', '.list-item',
     '.value-row', '.step', '.proof-grid > div', '.faq-grid > div',
     '.statement', '.contact-grid > div', '.contact-grid > form',
-    '.cta > img', '.cta-copy > *', '.band-photo > p'
+    '.cta > img', '.cta-copy > *', '.band-photo > p',
+    '.section-heading', '.person-card', '.quote-card', '.commitment-item',
+    '.place-card', '.area-form', '.photo-mosaic', '.journal-card',
+    '.access-card', '.facts-list', '.comparison-scroll', '.guide-copy > section',
+    '.rental-search', '.empty-properties'
   ].join(',');
   // Animate a group or its children, never both, so their delays don't compound.
   const candidates = [...document.querySelectorAll(selector)];
@@ -74,7 +78,7 @@ function setupReveals() {
   }, { threshold: 0.08, rootMargin: '0px 0px -35px 0px' });
   elements.forEach(el => {
     el.classList.add('reveal');
-    const group = el.closest('.three, .values, .service-grid, .proof-grid, .steps');
+    const group = el.closest('.three, .values, .service-grid, .proof-grid, .steps, .card-rail, .quote-grid, .place-grid, .commitment-list');
     if (group) {
       const index = [...group.children].indexOf(el);
       el.style.setProperty('--reveal-delay', `${Math.max(0, index % 4) * 90}ms`);
