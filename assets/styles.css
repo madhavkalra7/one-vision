@@ -68,3 +68,7 @@ header.is-scrolled{background:rgba(255,255,255,.98);box-shadow:0 5px 24px #1c241
 #what-to-expect .split>img{height:100%;min-height:760px;max-height:1100px}
 @media(max-width:850px){#what-to-expect .split>img{height:420px;min-height:0;max-height:none}}
 @media(max-width:600px){#what-to-expect .split>img{height:340px}}
+
+/* Header labels stay clean; desktop menus also open on keyboard focus. */
+@media(min-width:851px){.nav-submenu-toggle{display:none}.nav-group{gap:0}}
+@media(max-width:850px){.nav-submenu-toggle{font-size:12px;color:var(--muted)}.nav-submenu-toggle[aria-expanded=true] span{transform:none}}
