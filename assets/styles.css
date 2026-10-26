@@ -72,3 +72,29 @@ header.is-scrolled{background:rgba(255,255,255,.98);box-shadow:0 5px 24px #1c241
 /* Header labels stay clean; desktop menus also open on keyboard focus. */
 @media(min-width:851px){.nav-submenu-toggle{display:none}.nav-group{gap:0}}
 @media(max-width:850px){.nav-submenu-toggle{font-size:12px;color:var(--muted)}.nav-submenu-toggle[aria-expanded=true] span{transform:none}}
+
+/* Verified owner identity and direct business contact details. */
+.owner-spotlight{grid-template-columns:.95fr 1.05fr;gap:80px}
+.owner-photo{margin:0}
+.split .owner-photo>img{width:100%;height:620px;object-fit:cover;object-position:50% 18%}
+.owner-photo figcaption{padding:18px 0 0;font-size:16px;font-weight:700}
+.owner-photo figcaption span{display:block;color:var(--muted);font-size:13px;font-weight:400;margin-top:3px}
+.owner-spotlight h2{font-size:49px}
+.owner-role{font-size:12px!important;text-transform:uppercase;letter-spacing:1.6px;color:#996300;margin-bottom:26px}
+.owner-contact-links{display:flex;flex-direction:column;align-items:flex-start;gap:9px;border-top:1px solid var(--line);padding-top:20px;margin:25px 0;font-size:18px;line-height:1.6;max-width:100%}
+.owner-contact-links a{max-width:100%;overflow-wrap:anywhere;text-decoration:underline;text-decoration-color:#d4d7cc;text-underline-offset:5px;transition:text-decoration-color .2s ease}
+.owner-contact-links a:hover{text-decoration-color:var(--amber)}
+.owner-hero>img{object-position:50% 20%}
+.owner-cta>img{object-position:50% 24%}
+.footer-owner{display:flex;align-items:center;gap:13px;margin:25px 0 17px}
+.footer-owner>img{height:56px;width:56px;border-radius:50%;object-position:50% 23%;flex-shrink:0}
+.footer-owner p{margin:0;line-height:1.6}
+.footer-brand .owner-contact-links{font-size:14px;border:0;margin:0 0 25px;padding:0;gap:6px}
+.business-details dd a{overflow-wrap:anywhere}
+@media(max-width:850px){.owner-spotlight{grid-template-columns:1fr;gap:35px}.split .owner-photo>img{height:600px}.owner-photo{max-width:600px;width:100%;margin:auto}.owner-spotlight h2{font-size:43px}.owner-cta .cta-copy{padding-left:30px;padding-right:30px}.owner-contact-links{font-size:16px}}
+@media(max-width:600px){.split .owner-photo>img{height:470px}.owner-hero>img{height:380px;object-position:50% 20%}.owner-cta>img{height:380px;object-position:50% 22%}.owner-spotlight h2{font-size:39px}.owner-cta .cta-copy{padding-left:24px;padding-right:24px}.owner-contact-links{font-size:16px;gap:12px}.owner-spotlight .actions{gap:24px}.footer-brand .owner-contact-links{font-size:14px}}
+.owner-hero{grid-template-rows:560px}
+.owner-hero>img{height:100%;min-height:0}
+.cta-owner-photo{position:relative;min-height:540px}
+.cta-owner-photo>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 24%}
+@media(max-width:600px){.owner-hero{grid-template-rows:auto 380px}.cta-owner-photo{min-height:0;height:380px}.cta-owner-photo>img{object-position:50% 22%}}

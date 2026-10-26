@@ -57,7 +57,7 @@ function setupReveals() {
     '.section-heading', '.person-card', '.quote-card', '.commitment-item',
     '.place-card', '.area-form', '.photo-mosaic', '.journal-card',
     '.access-card', '.facts-list', '.comparison-scroll', '.guide-copy > section',
-    '.rental-search', '.empty-properties'
+    '.rental-search', '.empty-properties', '.owner-photo', '.owner-contact-links', '.cta-owner-photo'
   ].join(',');
   // Animate a group or its children, never both, so their delays don't compound.
   const candidates = [...document.querySelectorAll(selector)];

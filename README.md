@@ -18,9 +18,9 @@ npx serve dist
 
 ## Business details and enquiry delivery
 
-Edit `site.config.mjs`, then rebuild. The supplied attachment contained the legal name and ABN only. Telephone, email, office address, staff, service areas and licence information have not been invented.
+Edit `site.config.mjs`, then rebuild. The supplied attachments confirm the legal name, ABN, owner Amandeep Singh, business email admin@onevisionpropertygroup.com.au, phone +61 423 298 126 and two owner photographs. No office address, service area or licence details have been supplied.
 
-**Enquiry delivery is not connected.** Forms validate inputs and download a plain-text enquiry for the visitor; they clearly state that nothing has been sent. Entries are not stored. Maintenance preparation always downloads locally and never claims to lodge a request.
+**Enquiries prepare an email** to admin@onevisionpropertygroup.com.au in the visitor’s email app for review and sending. The website does not send messages automatically. Entries are not stored. Maintenance preparation always downloads locally and never claims to lodge a request.
 
 To enable general enquiries, set either:
 
@@ -75,3 +75,7 @@ Where verified staff and testimonials have not been supplied, the same layouts s
 Rental filters support keywords/suburbs, property type, maximum weekly rent and minimum bedrooms. Sorting supports published order and rent ascending/descending. Filter state is encoded in the URL. With no matching or published properties, a rental enquiry carries those preferences to the contact form. No interest registration or inspection is claimed to have been sent/booked by this static website.
 
 Property images are illustrative unless explicitly provided as actual listing/profile images. Additional Unsplash image identifiers: photo-1518005020951-eccb494ad742, photo-1518837695005-2083093ee35b, photo-1497366754035-f200968a6e72, photo-1521737711867-e3b97375f902.
+
+## Owner identity
+
+Amandeep Singh is identified as **Owner** using the details supplied by the business. His two photographs are locally hosted as `amandeep-singh-portrait.webp` and `amandeep-singh-seated.webp`; both preserve the supplied photos without AI alterations. Owner profiles appear on Home, About and Our People, with owner photography on Contact and shared closing sections. Click-to-call and email links are available in every footer and closing contact section. The general enquiry form prepares an email addressed to the supplied business mailbox; maintenance preparation remains a local download. No email credentials are included in the repository.
