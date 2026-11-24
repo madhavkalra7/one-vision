@@ -18,7 +18,7 @@ npx serve dist
 
 ## Business details and enquiry delivery
 
-Edit `site.config.mjs`, then rebuild. The supplied attachments confirm the legal name, ABN, owner Amandeep Singh, business email admin@onevisionpropertygroup.com.au, phone +61 423 298 126 and two owner photographs. No office address, service area or licence details have been supplied.
+Edit `site.config.mjs`, then rebuild. The supplied attachments confirm the legal name, ABN, owners Amandeep Singh and Nisha Arora, business email admin@onevisionpropertygroup.com.au, phone +61 423 298 126 and two owner photographs. No office address, service area or licence details have been supplied.
 
 **Enquiries prepare an email** to admin@onevisionpropertygroup.com.au in the visitor’s email app for review and sending. The website does not send messages automatically. Entries are not stored. Maintenance preparation always downloads locally and never claims to lodge a request.
 
@@ -78,4 +78,4 @@ Property images are illustrative unless explicitly provided as actual listing/pr
 
 ## Owner identity
 
-Amandeep Singh is identified as **Owner** using the details supplied by the business. His two photographs are locally hosted as `amandeep-singh-portrait.webp` and `amandeep-singh-seated.webp`; both preserve the supplied photos without AI alterations. Owner profiles appear on Home, About and Our People, with owner photography on Contact and shared closing sections. Click-to-call and email links are available in every footer and closing contact section. The general enquiry form prepares an email addressed to the supplied business mailbox; maintenance preparation remains a local download. No email credentials are included in the repository.
+Amandeep Singh (+61 423 298 126) and Nisha Arora (+61 430 104 542) are identified as **Owners** in `site.config.mjs` (`owners`). Photographs are locally hosted as `amandeep-singh-portrait.webp`, `amandeep-singh-seated.webp`, `nisha-arora-portrait.webp` and `nisha-arora-standing.webp`; all preserve the supplied photos without AI alterations. Owner profiles appear on Home, About and Our People, with owner photography on Contact and shared closing sections. Click-to-call and email links are available in every footer and closing contact section. The general enquiry form prepares an email addressed to the supplied business mailbox; maintenance preparation remains a local download. No email credentials are included in the repository.
